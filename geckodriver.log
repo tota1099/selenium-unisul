@@ -1,0 +1,329 @@
+1525317993030	geckodriver	INFO	geckodriver 0.20.1
+1525317993034	geckodriver	INFO	Listening on 127.0.0.1:47775
+1525317994067	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.mGmTaRIEqsoF"
+1525317999568	Marionette	INFO	Enabled via --marionette
+1525318004382	Marionette	INFO	Listening on port 46859
+1525318004650	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1525318260418	geckodriver	INFO	geckodriver 0.20.1
+1525318260423	geckodriver	INFO	Listening on 127.0.0.1:54915
+1525318261433	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.VZlYdHwH03w6"
+1525318262204	Marionette	INFO	Enabled via --marionette
+1525318264584	Marionette	INFO	Listening on port 33141
+1525318264654	Marionette	WARN	TLS certificate errors will be ignored for this session
+1525318283524	geckodriver	INFO	geckodriver 0.20.1
+1525318283528	geckodriver	INFO	Listening on 127.0.0.1:59149
+1525318284531	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.54O0JFRcjCW5"
+1525318285344	Marionette	INFO	Enabled via --marionette
+1525318287982	Marionette	INFO	Listening on port 41865
+1525318288042	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1525318364789	geckodriver	INFO	geckodriver 0.20.1
+1525318364794	geckodriver	INFO	Listening on 127.0.0.1:41167
+1525318365803	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.C5b8G3Pu9yKp"
+1525318366562	Marionette	INFO	Enabled via --marionette
+1525318368886	Marionette	INFO	Listening on port 46609
+1525318368926	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1525394041600	geckodriver	INFO	geckodriver 0.20.1
+1525394041702	geckodriver	INFO	Listening on 127.0.0.1:53567
+1525394042716	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.6wMY5xP8BfTD"
+1525394048540	Marionette	INFO	Enabled via --marionette
+1525394053722	Marionette	INFO	Listening on port 38109
+1525394053814	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1525394344882	geckodriver	INFO	geckodriver 0.20.1
+1525394344886	geckodriver	INFO	Listening on 127.0.0.1:51661
+1525394345897	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.vpCAd7uoLv64"
+1525394346614	Marionette	INFO	Enabled via --marionette
+1525394348840	Marionette	INFO	Listening on port 43283
+1525394348932	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://minha.unisul.br
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+1525394708169	geckodriver	INFO	geckodriver 0.20.1
+1525394708175	geckodriver	INFO	Listening on 127.0.0.1:44011
+1525394708180	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.AdkM8AWgdroN"
+1525394708992	Marionette	INFO	Enabled via --marionette
+1525394711408	Marionette	INFO	Listening on port 38251
+1525394711498	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1525394763102	geckodriver	INFO	geckodriver 0.20.1
+1525394763106	geckodriver	INFO	Listening on 127.0.0.1:45645
+1525394764117	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.eMYk5mhanXzi"
+1525394764866	Marionette	INFO	Enabled via --marionette
+1525394767036	Marionette	INFO	Listening on port 44689
+1525394767128	Marionette	WARN	TLS certificate errors will be ignored for this session
+1525394825087	geckodriver	INFO	geckodriver 0.20.1
+1525394825091	geckodriver	INFO	Listening on 127.0.0.1:44827
+1525394826093	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.fCeFdpxXQ5S2"
+1525394826812	Marionette	INFO	Enabled via --marionette
+1525394829312	Marionette	INFO	Listening on port 45817
+1525394829410	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1525394912624	geckodriver	INFO	geckodriver 0.20.1
+1525394912629	geckodriver	INFO	Listening on 127.0.0.1:48295
+1525394913637	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Ul3CtwetCekf"
+1525394914418	Marionette	INFO	Enabled via --marionette
+1525394916698	Marionette	INFO	Listening on port 45457
+1525394916748	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1525395222177	geckodriver	INFO	geckodriver 0.20.1
+1525395222181	geckodriver	INFO	Listening on 127.0.0.1:54307
+1525395223191	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.AF5qaIIRHPxQ"
+1525395224006	Marionette	INFO	Enabled via --marionette
+1525395226468	Marionette	INFO	Listening on port 44653
+1525395226506	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+1525396417024	geckodriver	INFO	geckodriver 0.20.1
+1525396417027	geckodriver	INFO	Listening on 127.0.0.1:44713
+1525396418033	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.k5bxFYQVG8NU"
+1525396418774	Marionette	INFO	Enabled via --marionette
+1525396421044	Marionette	INFO	Listening on port 39809
+1525396421154	Marionette	WARN	TLS certificate errors will be ignored for this session
+1525396439694	geckodriver	INFO	geckodriver 0.20.1
+1525396439698	geckodriver	INFO	Listening on 127.0.0.1:48469
+1525396440708	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.nhgu3yqhCyCx"
+1525396441492	Marionette	INFO	Enabled via --marionette
+1525396443930	Marionette	INFO	Listening on port 45947
+1525396444020	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(/usr/lib/firefox/firefox:10530): dconf-WARNING **: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+1525396510495	geckodriver	INFO	geckodriver 0.20.1
+1525396510499	geckodriver	INFO	Listening on 127.0.0.1:50607
+1525396511509	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.uBIlJLofrkJa"
+1525396512288	Marionette	INFO	Enabled via --marionette
+1525396514706	Marionette	INFO	Listening on port 46831
+1525396514726	Marionette	WARN	TLS certificate errors will be ignored for this session
+1525396534020	geckodriver	INFO	geckodriver 0.20.1
+1525396534024	geckodriver	INFO	Listening on 127.0.0.1:60939
+1525396535032	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.i0masbflj6Qk"
+1525396535892	Marionette	INFO	Enabled via --marionette
+1525396538196	Marionette	INFO	Listening on port 34491
+1525396538246	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1525396550733	geckodriver	INFO	geckodriver 0.20.1
+1525396550737	geckodriver	INFO	Listening on 127.0.0.1:39581
+1525396551746	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.L3yyZ72TxHb9"
+1525396552472	Marionette	INFO	Enabled via --marionette
+1525396554762	Marionette	INFO	Listening on port 37697
+1525396554872	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+1525396705013	geckodriver	INFO	geckodriver 0.20.1
+1525396705017	geckodriver	INFO	Listening on 127.0.0.1:49333
+1525396706026	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ZvjoX73crvYL"
+1525396706830	Marionette	INFO	Enabled via --marionette
+1525396709136	Marionette	INFO	Listening on port 45227
+1525396709242	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1525396769734	geckodriver	INFO	geckodriver 0.20.1
+1525396769738	geckodriver	INFO	Listening on 127.0.0.1:35283
+1525396770745	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.EW2XahqohKGj"
+1525396771500	Marionette	INFO	Enabled via --marionette
+1525396773764	Marionette	INFO	Listening on port 40841
+1525396773872	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1525397056820	geckodriver	INFO	geckodriver 0.20.1
+1525397056824	geckodriver	INFO	Listening on 127.0.0.1:59323
+1525397057834	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.mmRSSG9rGCbP"
+1525397058598	Marionette	INFO	Enabled via --marionette
+1525397060730	Marionette	INFO	Listening on port 45031
+1525397060748	Marionette	WARN	TLS certificate errors will be ignored for this session
+1525397219536	geckodriver	INFO	geckodriver 0.20.1
+1525397219540	geckodriver	INFO	Listening on 127.0.0.1:36731
+1525397220550	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.8J6HHFg3C5ZE"
+1525397221348	Marionette	INFO	Enabled via --marionette
+1525397223656	Marionette	INFO	Listening on port 43589
+1525397223672	Marionette	WARN	TLS certificate errors will be ignored for this session
+1525401097326	geckodriver	INFO	geckodriver 0.20.1
+1525401097330	geckodriver	INFO	Listening on 127.0.0.1:40921
+1525401098338	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.wWA8qi40y8CM"
+1525401099116	Marionette	INFO	Enabled via --marionette
+1525401101296	Marionette	INFO	Listening on port 39059
+1525401101352	Marionette	WARN	TLS certificate errors will be ignored for this session
+1525401133939	geckodriver	INFO	geckodriver 0.20.1
+1525401133944	geckodriver	INFO	Listening on 127.0.0.1:56261
+1525401134952	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.veeDheOF4OQJ"
+1525401135722	Marionette	INFO	Enabled via --marionette
+1525401138114	Marionette	INFO	Listening on port 46417
+1525401138182	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1525401332840	geckodriver	INFO	geckodriver 0.20.1
+1525401332845	geckodriver	INFO	Listening on 127.0.0.1:53211
+1525401333852	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.mLqmHeO4GxQH"
+1525401334634	Marionette	INFO	Enabled via --marionette
+1525401336904	Marionette	INFO	Listening on port 46645
+1525401336964	Marionette	WARN	TLS certificate errors will be ignored for this session
+1525401560266	geckodriver	INFO	geckodriver 0.20.1
+1525401560270	geckodriver	INFO	Listening on 127.0.0.1:40463
+1525401561277	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.5kXBVBJcbsYD"
+1525401562136	Marionette	INFO	Enabled via --marionette
+1525401566290	Marionette	INFO	Listening on port 46187
+1525401566322	Marionette	WARN	TLS certificate errors will be ignored for this session
+1525402031354	geckodriver	INFO	geckodriver 0.20.1
+1525402031360	geckodriver	INFO	Listening on 127.0.0.1:50051
+1525402032367	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.JMG6lwWP8b0o"
+1525402033176	Marionette	INFO	Enabled via --marionette
+1525402035504	Marionette	INFO	Listening on port 36651
+1525402035578	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+1525402128272	geckodriver	INFO	geckodriver 0.20.1
+1525402128277	geckodriver	INFO	Listening on 127.0.0.1:48363
+1525402129285	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.3w1Kxsu91qXN"
+1525402130040	Marionette	INFO	Enabled via --marionette
+1525402132414	Marionette	INFO	Listening on port 42233
+1525402132498	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 377 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 377 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 377 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+1525402340274	geckodriver	INFO	geckodriver 0.20.1
+1525402340278	geckodriver	INFO	Listening on 127.0.0.1:42267
+1525402341287	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.OuCVuVhjbdtq"
+1525402342042	Marionette	INFO	Enabled via --marionette
+1525402344920	Marionette	INFO	Listening on port 43417
+1525402345008	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 377 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 377 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 377 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 377 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 377 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 377 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+console.warn: Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!
+console.trace: 
+_fronts/inspector.js 377 WalkerFront<.getMutations</<
+_/Promise-backend.js 922 process
+_/Promise-backend.js 806 walkerLoop
+_/Promise-backend.js 742 scheduleWalkerLoop/<
+
+1525403055725	geckodriver	INFO	geckodriver 0.20.1
+1525403055729	geckodriver	INFO	Listening on 127.0.0.1:44105
+1525403056740	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Qerhp1PrCJRa"
+1525403057514	Marionette	INFO	Enabled via --marionette
+1525403059742	Marionette	INFO	Listening on port 42189
+1525403059758	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement
+JavaScript warning: https://projetoguia.unisul.br/servlets/cs/sa8prd/cache/PT_SAVEWARNINGSCRIPT_POR_main_1.js, line 164: unreachable code after return statement

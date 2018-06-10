@@ -26,7 +26,7 @@ siteLink = 'https://minha.unisul.br/'
 try:
 	minhaUnisul = MinhaUnisul(browser, siteLink)
 	minhaUnisul.get('psp/pa89prd/?cmd=login&languageCd=POR')
-	minhaUnisul.logar('renan.porto','Tota1099.')
+	minhaUnisul.logar('renan.porto','yourpassword')
 	time.sleep(2)
 	minhaUnisul.w.find_element_by_link_text('Notas de Avaliação').click()
 	minhaUnisul.w.switch_to.frame(minhaUnisul.w.find_element_by_id('d_conteudo')) 

@@ -26,17 +26,35 @@ try:
     minhaUnisul = MinhaUnisul(browser, siteLink)
     minhaUnisul.get('psp/pa89prd/?cmd=login&languageCd=POR')
     minhaUnisul.logar('renan.porto', 'yourpassword')
-    time.sleep(2)
+    time.sleep(3)
     minhaUnisul.w.find_element_by_link_text('Notas de Avaliação').click()
     minhaUnisul.w.switch_to.frame(minhaUnisul.w.find_element_by_id('d_conteudo'))
     minhaUnisul.w.find_element_by_link_text('2018 - 1º Semestre').click()
     time.sleep(2)
     table = minhaUnisul.w.find_element_by_class_name('PSLEVEL1GRID')
     rows = table.find_elements(By.TAG_NAME, "tr")
+
+    dados = {}
     for row in rows:
         col = row.find_elements(By.TAG_NAME, "td")
         if col:
-            print(col[0].text)
+            disciplina = col[0].text
+            dados[disciplina] = {}
+
+    for disciplina in dados.keys():
+        minhaUnisul.w.find_element_by_link_text(disciplina).click()
+        table = minhaUnisul.w.find_element_by_class_name('PSLEVEL1GRID')
+        rows2 = table.find_elements(By.TAG_NAME, "tr")
+        for row2 in rows2:
+            col2 = row2.find_elements(By.TAG_NAME, "td")
+            if col2:
+                atividadeNome = col2[3].text
+                atividadeNota = col2[5].text
+                dados[disciplina][atividadeNome] = atividadeNota
+        minhaUnisul.w.find_element_by_link_text("Selecionar Disciplina/UA").click()
+        time.sleep(2)
+
+    print(dados)
 except ValueError:
     print(ValueError)
 finally:

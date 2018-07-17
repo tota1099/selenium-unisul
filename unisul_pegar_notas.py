@@ -15,6 +15,5 @@ try:
     disciplines = minhaUnisul.get_disciplines()
     disciplines_grades = minhaUnisul.get_disciplines_grades(disciplines)
     browser.quit()
-    print(disciplines_grades)
 except ValueError:
     print(ValueError)

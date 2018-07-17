@@ -13,7 +13,7 @@ $ source seleniumUnisul/bin/activate
 $ pip3 install -r requirements.txt
 ```
 
-### Configuration
+### Configuração
 
 Coloque suas credenciais no arquivo .env
 * A variavel "USER_SEMESTRE" possui o formato "ANO - SEMESTRE"

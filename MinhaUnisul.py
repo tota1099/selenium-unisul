@@ -10,20 +10,20 @@ class MinhaUnisul():
         self.browser = browser
         self.browser.get(self.site_url + 'psp/pa89prd/?cmd=login&languageCd=POR')
 
-    def logar(self):
-        usuario = os.environ['USER_NAME']
-        senha = os.environ['USER_PASSWORD']
-        self.browser.find_element_by_id(Buttons.USER_FIELD_ID.value).send_keys(usuario)
-        self.browser.find_element_by_id(Buttons.PASSWORD_FIELD_ID.value).send_keys(senha)
+    def login(self):
+        user = os.environ['USER_NAME']
+        password = os.environ['USER_PASSWORD']
+        self.browser.find_element_by_id(Buttons.USER_FIELD_ID.value).send_keys(user)
+        self.browser.find_element_by_id(Buttons.PASSWORD_FIELD_ID.value).send_keys(password)
         self.browser.find_element_by_id(Buttons.ACCESS_BUTTON_ID.value).click()
 
-    def entrar_notas_avaliacoes(self):
+    def enter_menu_grades(self):
         self.browser.find_element_by_link_text('Notas de Avaliação').click()
 
-    def entrar_semestre(self):
-        semestre = os.environ['USER_SEMESTRE']
+    def enter_semester(self):
+        semester = os.environ['USER_SEMESTRE']
         self.browser.switch_to.frame(self.browser.find_element_by_id('d_conteudo'))
-        self.browser.find_element_by_link_text(semestre + "º Semestre").click()
+        self.browser.find_element_by_link_text(semester + "º Semestre").click()
 
     def get_disciplines(self):
         table = self.browser.find_element_by_class_name('PSLEVEL1GRID')
@@ -33,7 +33,7 @@ class MinhaUnisul():
         for row in rows:
             col = row.find_elements(By.TAG_NAME, "td")
             if col:
-                discipline = col[0].text
+                discipline = col[Columns.DISCIPLINE.value].text
                 disciplines[discipline] = {}
         return disciplines
 
@@ -49,8 +49,8 @@ class MinhaUnisul():
             for row in rows:
                 cols = row.find_elements(By.TAG_NAME, "td")
                 if cols:
-                    work_name = cols[Columns.WORK_NAME_COLUMN.value].text
-                    work_grade = cols[Columns.WORK_GRADE_COLUMN.value].text
+                    work_name = cols[Columns.WORK_NAME.value].text
+                    work_grade = cols[Columns.WORK_GRADE.value].text
                     disciplines_grades[discipline][work_name] = work_grade
             self.browser.find_element_by_link_text("Selecionar Disciplina/UA").click()
 

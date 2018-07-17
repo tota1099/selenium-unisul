@@ -2,8 +2,9 @@ from enum import Enum
 
 
 class Columns(Enum):
-    WORK_NAME_COLUMN = 3
-    WORK_GRADE_COLUMN = 5
+    WORK_NAME = 3
+    WORK_GRADE = 5
+    DISCIPLINE = 0
 
 
 class Buttons(Enum):

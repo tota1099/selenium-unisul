@@ -1,3 +1,4 @@
 .idea/
 geckodriver.log
 seleniumUnisul
+__pycache__/

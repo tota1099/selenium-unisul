@@ -1,26 +1,32 @@
+import os
 from selenium.webdriver.common.by import By
-from selenium import webdriver
+from MinhaUnisulEnum import Columns, Buttons
 
-class MinhaUnisul(webdriver):
+
+class MinhaUnisul():
     site_url = 'https://minha.unisul.br/'
 
-    def __init__(self):
-        self.get(self.site_url + 'psp/pa89prd/?cmd=login&languageCd=POR')
+    def __init__(self, browser):
+        self.browser = browser
+        self.browser.get(self.site_url + 'psp/pa89prd/?cmd=login&languageCd=POR')
 
-    def logar(self, usuario, senha):
-        self.w.find_element_by_id('userid').send_keys(usuario)
-        self.w.find_element_by_id('pwd').send_keys(senha)
-        self.w.find_element_by_id('subEnviar').click()
+    def logar(self):
+        usuario = os.environ['USER_NAME']
+        senha = os.environ['USER_PASSWORD']
+        self.browser.find_element_by_id(Buttons.USER_FIELD_ID.value).send_keys(usuario)
+        self.browser.find_element_by_id(Buttons.PASSWORD_FIELD_ID.value).send_keys(senha)
+        self.browser.find_element_by_id(Buttons.ACCESS_BUTTON_ID.value).click()
 
     def entrar_notas_avaliacoes(self):
-        self.w.find_element_by_link_text('Notas de Avaliação').click()
+        self.browser.find_element_by_link_text('Notas de Avaliação').click()
 
-    def entrar_atual_semestre(self):
-        self.w.switch_to.frame(self.w.find_element_by_id('d_conteudo'))
-        self.w.find_element_by_link_text('2018 - 1º Semestre').click()
+    def entrar_semestre(self):
+        semestre = os.environ['USER_SEMESTRE']
+        self.browser.switch_to.frame(self.browser.find_element_by_id('d_conteudo'))
+        self.browser.find_element_by_link_text(semestre + "º Semestre").click()
 
     def get_disciplines(self):
-        table = self.w.find_element_by_class_name('PSLEVEL1GRID')
+        table = self.browser.find_element_by_class_name('PSLEVEL1GRID')
         rows = table.find_elements(By.TAG_NAME, "tr")
 
         disciplines = {}
@@ -35,15 +41,17 @@ class MinhaUnisul(webdriver):
         disciplines_grades = {}
 
         for discipline in disciplines.keys():
-            self.w.find_element_by_link_text(discipline).click()
-            table = self.w.find_element_by_class_name('PSLEVEL1GRID')
+            if discipline not in disciplines_grades:
+                disciplines_grades[discipline] = {}
+            self.browser.find_element_by_link_text(discipline).click()
+            table = self.browser.find_element_by_class_name('PSLEVEL1GRID')
             rows = table.find_elements(By.TAG_NAME, "tr")
             for row in rows:
-                cols = linha.find_elements(By.TAG_NAME, "td")
+                cols = row.find_elements(By.TAG_NAME, "td")
                 if cols:
-                    work_name = colunas[3].text
-                    work_grade = colunas[5].text
+                    work_name = cols[Columns.WORK_NAME_COLUMN.value].text
+                    work_grade = cols[Columns.WORK_GRADE_COLUMN.value].text
                     disciplines_grades[discipline][work_name] = work_grade
-            self.w.find_element_by_link_text("Selecionar Disciplina/UA").click()
+            self.browser.find_element_by_link_text("Selecionar Disciplina/UA").click()
 
         return disciplines_grades

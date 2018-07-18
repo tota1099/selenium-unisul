@@ -11,3 +11,4 @@ class Buttons(Enum):
     USER_FIELD_ID = "userid"
     PASSWORD_FIELD_ID = "pwd"
     ACCESS_BUTTON_ID = "subEnviar"
+    ERROR_LOGIN_ID = "login-error"

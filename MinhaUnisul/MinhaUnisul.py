@@ -1,6 +1,8 @@
 import os
 from selenium.webdriver.common.by import By
-from MinhaUnisulEnum import Columns, Buttons
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from MinhaUnisul.MinhaUnisulEnum import Columns, Buttons
 
 
 class MinhaUnisul():
@@ -17,8 +19,19 @@ class MinhaUnisul():
         self.browser.find_element_by_id(Buttons.PASSWORD_FIELD_ID.value).send_keys(password)
         self.browser.find_element_by_id(Buttons.ACCESS_BUTTON_ID.value).click()
 
+        url = self.browser.current_url
+        if url.find('errorCode=105') > 0:
+            self.browser.quit()
+            raise ValueError('Seu ID Usuário e/ou Senha não é válido.')
+
     def enter_menu_grades(self):
-        self.browser.find_element_by_link_text('Notas de Avaliação').click()
+        try:
+            WebDriverWait(self.browser, 10).until(
+                EC.presence_of_element_located((By.LINK_TEXT, "Notas de Avaliação"))
+            )
+            self.browser.find_element_by_link_text('Notas de Avaliação').click()
+        finally:
+            self.browser.quit()
 
     def enter_semester(self):
         semester = os.environ['USER_SEMESTRE']

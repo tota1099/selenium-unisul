@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
-from MinhaUnisul import MinhaUnisul
-import BrowserChrome
+from MinhaUnisul.MinhaUnisul import MinhaUnisul
+from browser import BrowserChrome
 
 try:
     dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -14,6 +14,5 @@ try:
     minhaUnisul.enter_semester()
     disciplines = minhaUnisul.get_disciplines()
     disciplines_grades = minhaUnisul.get_disciplines_grades(disciplines)
-    browser.quit()
-except ValueError:
-    print(ValueError)
+except ValueError as e:
+    print(e)

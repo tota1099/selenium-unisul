@@ -2,3 +2,5 @@
 geckodriver.log
 seleniumUnisul
 __pycache__/
+ghostdriver.log
+data.json

@@ -30,16 +30,28 @@ class MinhaUnisul():
                 EC.presence_of_element_located((By.LINK_TEXT, "Notas de Avaliação"))
             )
             self.browser.find_element_by_link_text('Notas de Avaliação').click()
-        finally:
+        except ValueError:
             self.browser.quit()
 
     def enter_semester(self):
-        semester = os.environ['USER_SEMESTRE']
-        self.browser.switch_to.frame(self.browser.find_element_by_id('d_conteudo'))
-        self.browser.find_element_by_link_text(semester + "º Semestre").click()
+        try:
+            semester = os.environ['USER_SEMESTRE']
+            wait = WebDriverWait(self.browser, 10)
+            wait.until(EC.presence_of_element_located((By.ID, 'd_conteudo')))
+            self.browser.switch_to.frame(self.browser.find_element_by_id('d_conteudo'))
+            self.browser.find_element_by_link_text(semester + "º Semestre").click()
+        except ValueError:
+            self.browser.quit()
 
     def get_disciplines(self):
-        table = self.browser.find_element_by_class_name('PSLEVEL1GRID')
+
+        try:
+            table = WebDriverWait(self.browser, 5).until(
+                EC.presence_of_element_located((By.CLASS_NAME, "PSLEVEL1GRID"))
+            )
+        except ValueError:
+            self.browser.quit()
+
         rows = table.find_elements(By.TAG_NAME, "tr")
 
         disciplines = {}

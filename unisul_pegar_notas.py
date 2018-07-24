@@ -2,6 +2,7 @@ import os
 from dotenv import load_dotenv
 from MinhaUnisul.MinhaUnisul import MinhaUnisul
 from browser import BrowserChrome
+import json
 
 try:
     dir_path = os.path.dirname(os.path.realpath(__file__))
@@ -14,5 +15,9 @@ try:
     minhaUnisul.enter_semester()
     disciplines = minhaUnisul.get_disciplines()
     disciplines_grades = minhaUnisul.get_disciplines_grades(disciplines)
+    with open('data.json', 'w') as outfile:
+        json.dump(disciplines_grades, outfile)
 except ValueError as e:
     print(e)
+finally:
+    browser.quit()

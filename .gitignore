@@ -3,4 +3,5 @@ geckodriver.log
 seleniumUnisul
 __pycache__/
 ghostdriver.log
-data.json
+disciplines_grades.json
+.vscode/

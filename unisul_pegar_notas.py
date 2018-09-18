@@ -1,6 +1,7 @@
 import os
 from dotenv import load_dotenv
 from MinhaUnisul.MinhaUnisul import MinhaUnisul
+from services.GradesProcess import GradesProcess
 from browser import BrowserChrome
 import json
 
@@ -15,7 +16,10 @@ try:
     minhaUnisul.enter_semester()
     disciplines = minhaUnisul.get_disciplines()
     disciplines_grades = minhaUnisul.get_disciplines_grades(disciplines)
-    with open('data.json', 'w') as outfile:
+    gradesProcess = GradesProcess(disciplines_grades)
+    disciplines_grades_news = gradesProcess.get_disciplines_grades_news()
+
+    with open('disciplines_grades.json', 'w') as outfile:
         json.dump(disciplines_grades, outfile)
 except ValueError as e:
     print(e)

@@ -76,7 +76,8 @@ class MinhaUnisul():
                 if cols:
                     work_name = cols[Columns.WORK_NAME.value].text
                     work_grade = cols[Columns.WORK_GRADE.value].text
-                    disciplines_grades[discipline][work_name] = work_grade
+                    if work_grade.strip() != '':
+                        disciplines_grades[discipline][work_name] = work_grade
             self.browser.find_element_by_link_text("Selecionar Disciplina/UA").click()
 
         return disciplines_grades

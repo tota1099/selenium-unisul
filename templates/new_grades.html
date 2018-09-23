@@ -1,0 +1,16 @@
+Nova(s) nota(s) no portal MINHA UNISUL!
+<br><br>
+Segue novas notas:
+<br><br>
+
+{% for discipline, grades in new_grades.items() %}
+    Disciplina: {{ discipline }}
+    <ul>
+        {% for work, grade in grades.items() %}
+            <li> {{ work }}: {{ grade }} </li>
+        {% endfor %}
+    </ul>
+    <br><br>
+{% endfor %}
+
+Obrigado por utilizar os nossos serviços :).

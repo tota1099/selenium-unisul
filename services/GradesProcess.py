@@ -11,14 +11,16 @@ class GradesProcess():
         disciplines_grades_news = {}
 
         for discipline, grades in self.grades.items():
-            if discipline in old_grades:
-                for grade, nota in grades.items():
-                    if grade not in old_grades.get(discipline):
-                        if discipline not in disciplines_grades_news:
-                            disciplines_grades_news[discipline] = {}
-                        disciplines_grades_news[discipline][grade] = nota
-            else:
-                disciplines_grades_news[discipline] = grades
+
+            if discipline not in old_grades:
+                old_grades[discipline] = {}
+
+            for work, grade in grades.items():
+                if grade.strip() != '' and work not in old_grades[discipline]:
+                    if discipline not in disciplines_grades_news:
+                        disciplines_grades_news[discipline] = {}
+                    disciplines_grades_news[discipline][work] = grade
+
         return disciplines_grades_news
 
 

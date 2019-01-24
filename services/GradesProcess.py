@@ -1,4 +1,5 @@
 import json
+import os
 
 class GradesProcess():
     
@@ -26,5 +27,7 @@ class GradesProcess():
 
 
     def get_current_disciplines_grades(self):
-        disciplines_grades  = open('disciplines_grades.json','r')
-        return disciplines_grades.read()
+        if os.path.exists('disciplines_grades.json'):
+            disciplines_grades  = open('disciplines_grades.json','r')
+            return disciplines_grades.read()
+        return "{}"

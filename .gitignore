@@ -1,7 +1,8 @@
 .idea/
 geckodriver.log
-seleniumUnisul
+env
 __pycache__/
 ghostdriver.log
 disciplines_grades.json
 .vscode/
+.env

@@ -22,7 +22,7 @@ try:
     if disciplines_grades_news:
         mail = Mail()
         mail.send(disciplines_grades_news)
-    with open('disciplines_grades.json', 'w') as outfile:
+    with open('disciplines_grades.json', 'w+') as outfile:
         json.dump(disciplines_grades, outfile)
 except ValueError as e:
     print(e)
